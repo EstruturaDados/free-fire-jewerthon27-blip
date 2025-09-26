@@ -7,7 +7,7 @@
 // Nível: Mestre
 // Este programa simula o gerenciamento avançado de uma mochila com componentes coletados durante a fuga de uma ilha.
 // Ele introduz ordenação com critérios e busca binária para otimizar a gestão dos recursos.
-
+#define MAX_ITENS 10
 int main() {
     // Menu principal com opções:
     // 1. Adicionar um item
@@ -19,7 +19,24 @@ int main() {
 
     // A estrutura switch trata cada opção chamando a função correspondente.
     // A ordenação e busca binária exigem que os dados estejam bem organizados.
+    int main() {
+        int opcao; 
 
+        do {
+            printf("\n--- MENU PRINCIPAL ---\n");
+            printf("1. Adicionar item\n");
+            printf("2.Remover um item\n");
+            printf("3.Listar todos os itens\n");
+            printf("4.Ordenar os itens por critério (nome, tipo, prioridade)\n");
+            printf("5.Realizar busca binária por nome\n");
+            printf("0.Sair\n");
+            printf("Escolha: ");
+            scanf("%d", &opcao);
+
+            
+                
+                
+                
     return 0;
 }
 
